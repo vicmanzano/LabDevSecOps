@@ -1,13 +1,13 @@
 # Prisma Cloud IaC Scan Config file. 
 # Please update with the respective environment values and commit to master branch under the .github folder before performing scans
 # API URL for your Prisma Cloud instance
-prisma_cloud_api_url: 'https://api.eu.prismacloud.io'
+prisma_cloud_api_url: 'https://api.prismacloud.io'
 # Example:'https://api.eu.prismacloud.io' or 'https://api4.prismacloud.io'			
 # --Authentication--
 # Before adding your keys, to ensure that your keys are not exposed publicly, make sure that either your repo is private or local to your organization.
 # Create a new access key on the Prisma Cloud web interface (Settings > Access Keys).Copy the credentials below
-access_key: '708499ae-aade-41df-96e2-b6be2158cd5f'
-secret_key: 'cALhPvKUVOLJdahcx8rwjjaRAZ8='
+access_key: '5ffc9c75-51dc-4fdb-bc67-99f0237094b6'
+secret_key: 'L2nFbvLKySFMwW4seTI4NwK0c9c='
 
 # Define the failure criteria for creating checks. If the criteria matches a check will be created. The template for the checks can be customized in the "/.github/prisma-template-for-scan-results" file. failure_criteria_for_creating_checks:
   high: 1
