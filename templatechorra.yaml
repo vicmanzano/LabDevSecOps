@@ -6,10 +6,6 @@ Description: >-
   group for the instance to give you SSH access. **WARNING** This template
   creates an Amazon EC2 instance. You will be billed for the AWS resources used
   if you create a stack from this template. Victor: interso texto para rama dev
-  
-  
-  
-  
 Parameters:
   KeyName:
     Description: Name of an existing EC2 KeyPair to enable SSH access to the instance
