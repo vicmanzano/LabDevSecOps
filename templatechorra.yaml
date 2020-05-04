@@ -8,6 +8,9 @@ Description: >-
   
   if you create a stack from this template. Victor: interso texto para rama dev
   
+  
+  
+  
 Parameters:
   KeyName:
     Description: Name of an existing EC2 KeyPair to enable SSH access to the instance
